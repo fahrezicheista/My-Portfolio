@@ -50,7 +50,7 @@ export default function About() {
             whileHover={cardHover.whileHover}
             whileTap={cardHover.whileTap}
           >
-            <FaCode className="h-8 w-8 text-primary mb-4" />
+            <FaCode className="h-8 w-8 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Frontend</h3>
             <ul className="text-secondary space-y-2">
               <li>-</li>

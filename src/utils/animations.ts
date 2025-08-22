@@ -26,11 +26,13 @@ export const staggerContainer = {
 
 export const cardHover = {
   whileHover: { scale: 1.05 },
+  whileTap: { scale: 0.95 }, // ✅ tambahin ini
   transition: { type: "spring", stiffness: 300 }
 }
 
 export const cardHoverSmall = {
   whileHover: { scale: 1.02 },
+  whileTap: { scale: 0.97 }, // ✅ tambahin ini
   transition: { type: "spring", stiffness: 300 }
 }
 
@@ -57,4 +59,4 @@ export const scaleIn = {
   initial: { scale: 0.8, opacity: 0 },
   animate: { scale: 1, opacity: 1 },
   transition: { duration: 0.5 }
-} 
+}
