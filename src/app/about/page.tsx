@@ -47,7 +47,8 @@ export default function About() {
           <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md h-full"
             variants={fadeInUp}
-            {...cardHover}
+            whileHover={cardHover.whileHover}
+            whileTap={cardHover.whileTap}
           >
             <FaCode className="h-8 w-8 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Frontend</h3>
@@ -62,7 +63,8 @@ export default function About() {
           <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md h-full"
             variants={fadeInUp}
-            {...cardHover}
+            whileHover={cardHover.whileHover}
+            whileTap={cardHover.whileTap}
           >
             <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
@@ -89,7 +91,8 @@ export default function About() {
           <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
-            {...cardHoverSmall}
+            whileHover={cardHoverSmall.whileHover}
+            whileTap={cardHoverSmall.whileTap}
           >
             <h3 className="text-xl font-semibold mb-2">
               Junior Front-end Web Developer
@@ -116,7 +119,8 @@ export default function About() {
           <motion.div
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
-            {...cardHoverSmall}
+            whileHover={cardHoverSmall.whileHover}
+            whileTap={cardHoverSmall.whileTap}
           >
             <h3 className="text-xl font-semibold mb-2">
               Student Software Engineer
